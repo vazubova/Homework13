@@ -41,7 +41,7 @@ public class Author {
 
     @Override
     public int hashCode() {
-        return java.util.Objects.hash(firstName) + java.util.Objects.hash(lastName);
+        return java.util.Objects.hash(firstName, lastName);
     }
 
 }
